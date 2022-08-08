@@ -3,6 +3,7 @@ const PORT = 4000;
 const server = express();
 
 // require and connect to the client
+const client = require("./db/client");
 
 // Add any middleware you made need
 
